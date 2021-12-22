@@ -10,16 +10,21 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          Folder Structure is Like
-          <code>*src/</code>
-          <code> - assets</code> contains Images, Fonts etc.
-          <code> - components</code> contain Reusable or Specific Components
-          <code> - functions</code> contain reusable / lengthy function
-          <code> - pages</code> contain all pages of Application
-          <code> - redux</code> for managing redux (Actions, Reducers, Store)
-          <code> - routes</code> contain complete routing structure
-        </p>
+        <div>
+          <p className="App-intro">
+            Folder Structure is Like <br />
+            <code>*src</code> <br />
+            <code> - /assets</code> contains Images, Fonts etc. <br />
+            <code> - /components</code> contain Reusable or Specific Components{" "}
+            <br />
+            <code> - /functions</code> contain reusable / lengthy function{" "}
+            <br />
+            <code> - /pages</code> contain all pages of Application <br />
+            <code> - /redux</code> for managing redux (Actions, Reducers, Store){" "}
+            <br />
+            <code> - /routes</code> contain complete routing structure <br />
+          </p>
+        </div>
       </div>
     );
   }

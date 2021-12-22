@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
   render() {
@@ -11,7 +11,14 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Folder Structure is Like
+          <code>*src/</code>
+          <code> - assets</code> contains Images, Fonts etc.
+          <code> - components</code> contain Reusable or Specific Components
+          <code> - functions</code> contain reusable / lengthy function
+          <code> - pages</code> contain all pages of Application
+          <code> - redux</code> for managing redux (Actions, Reducers, Store)
+          <code> - routes</code> contain complete routing structure
         </p>
       </div>
     );
